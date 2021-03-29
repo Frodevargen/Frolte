@@ -3,4 +3,53 @@
   margin-right: auto;
   height: 100%;
   width: 100%;
+  background-color: pink;
+}
+
+#container{
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: repeat(5,1fr);
+}
+
+#parabild{
+  background-color: green;
+  width: 100%;
+  height: 1000px;
+  grid-column: 2;
+}
+
+#info{
+  background-color: blue;
+  width: 100%;
+  height: 1000px;
+  grid-column: 2;
+}
+
+#introductioin{
+  background-color: red;
+  width: 100%;
+  height: 1000px;
+  grid-column: 2;
+}
+
+#board{
+  background-color: yellow;
+  width: 100%;
+  height: 1000px;
+  grid-column: 2;
+}
+
+#pjäser{
+  background-color: orange;
+  width: 100%;
+  height: 1000px;
+  grid-column: 2;
+}
+
+#strats{
+  background-color: purple;
+  width: 100%;
+  height: 1000px;
+  grid-column: 2;
 }
