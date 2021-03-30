@@ -1,60 +1,62 @@
+
+body{
+  margin: 0;
+}
+
 #wrapper{
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0px;
+  margin-right: 0px;
   height: 100%;
   width: 100%;
-  background-color: pink;
+  background-color: yellow;
 }
 
-nav{
-
-}
 
 #container{
-  display: grid;
-  grid-template-columns: 15% 70% 15%;
-  grid-template-rows: repeat(7,1fr);
+  height: 100%;
+  width: 100%;
+  grid-template-rows: repeat(auto,auto);
 }
 
 #parabild{
   background-color: green;
   width: 100%;
-
-  grid-column: 2;
+  height: 100%;
 }
 
 #info{
   background-color: blue;
   width: 100%;
-  grid-column: 2;
-  grid-template-columns: 3fr;
-  grid-template-rows: 3fr;
+  height: 100%;
 }
 
 #introductioin{
   background-color: red;
   width: 100%;
+<<<<<<< Updated upstream
   height: 1000px;
   grid-column: 2;
+=======
+  height: 100%;
+>>>>>>> Stashed changes
 }
 
 #board{
-  background-color: yellow;
+  background-color: grey;
   width: 100%;
+  height: 100%;
 
-  grid-column: 2;
 }
 
 #pjäser{
   background-color: orange;
   width: 100%;
+  height: 100%;
 
-  grid-column: 2;
 }
 
 #strats{
   background-color: purple;
   width: 100%;
-  height: 1000px;
-  grid-column: 2;
+  height: 100%;
 }
