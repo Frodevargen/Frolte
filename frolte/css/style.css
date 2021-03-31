@@ -32,6 +32,7 @@ section img
   pointer-events: none;
 
 }
+#yes{height: 20%; background-color: #0a2a43}
 #text
 {
   position:absolute;
@@ -54,8 +55,8 @@ header{
   position:fixed;
 }
 #logo{
-  margin-left: 3.5%;
-  margin-top: 2%;
+  margin-left: .31%;
+  margin-top: 0.08%;
   width: 90px;
   height: 90%;
   border-radius: 50px;
@@ -71,6 +72,25 @@ header{
   border: 1px solid black;
   display: flex;
 
+}
+.buttn{
+  width: 150px;
+  height: 60px;
+  margin-left: 7%;
+  margin-top: 1%;
+  background-color: Orange;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;  border:2px solid #FFF;
+  text-align: center;
+  align-items: flex-start;
+  text-rendering: auto;
+
+}
+h6{
+  margin-top: 10%;
+font-size: 100%
 }
 .piece{
   margin-top: 1%;
