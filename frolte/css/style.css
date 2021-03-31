@@ -168,3 +168,16 @@ margin-top: 29%;
   z-index: 1;
   margin-left: -100%;
 }
+
+#bama{
+  margin-left: auto;
+  margin-right: auto;
+  height: 45%;
+  width: auto;
+}
+#introbild{
+  margin-left: auto;
+  margin-right: auto;
+  height: 55%;
+  width: auto;
+}
