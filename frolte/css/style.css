@@ -142,20 +142,21 @@ margin-top: 29%;
 }
 
 #info{
-  background-color: blue;
+  background-color: orange;
   width: 100%;
   height: 100%;
   z-index: 20;
 }
 
 #introductioin{
-  background-color: red;
+  background-color: orange;
+  margin-top: 5%;
   width: 100%;
   height: 100%;
 }
 
 #bard{
-  background-color: grey;
+  background-color: orange;
   width: 100%;
   height: 100%;
 
@@ -164,12 +165,14 @@ margin-top: 29%;
 #pjäser{
   background-color: orange;
   width: 100%;
+  margin-top: 5%;
   height: 100%;
 
 }
 
 #strats{
-  background-color: purple;
+  background-color: orange;
+  margin-top: 5%;
   width: 100%;
   height: 100%;
 }
