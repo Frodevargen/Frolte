@@ -5,9 +5,10 @@
   padding:0;
   font-family: 'Poppins', sans-serif;
 }
-body{
+body
+{
   background: #0a2a43;
-  min-height: 100%;
+  min-height: 1500px;
   margin: 0;
 }
 section
@@ -54,10 +55,10 @@ section img
 }
 #text
 {
-  position:absolute;
+  position: fixed;
   color: #fff;
   font-size: 10em;
-  z-index: 5;
+  z-index: 1;
   margin-left: -24%;
   margin-top: 4.8%;
   color: green;
@@ -106,65 +107,4 @@ margin-top: 29%;
 
 #board{
   margin-left: 400px;
-}
-
-
-#wrapper{
-  margin-left: 0px;
-  margin-right: 0px;
-  height: 100%;
-  width: 100%;
-  background-color: yellow;
-}
-
-
-#container{
-  height: 100%;
-  width: 100%;
-  grid-template-rows: repeat(auto,auto);
-}
-
-#parabild{
-  width: 100%;
-  height: 100%;
-}
-
-#info{
-  background-color: blue;
-  width: 100%;
-  height: 100%;
-  z-index: 20;
-}
-
-#introductioin{
-  background-color: red;
-  width: 100%;
-  height: 100%;
-}
-
-#bard{
-  background-color: grey;
-  width: 100%;
-  height: 100%;
-
-}
-
-#pjäser{
-  background-color: orange;
-  width: 100%;
-  height: 100%;
-
-}
-
-#strats{
-  background-color: purple;
-  width: 100%;
-  height: 100%;
-}
-#blackbox{
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: 1;
-  margin-left: -100%;
 }
