@@ -5,9 +5,26 @@
     <meta name="viewport" content="width=device-width">
   </head>
   <body>
+
     <div id="wrapper">
       <div id="container">
-        <div id="parabild"></div>
+        <div id="parabild">
+          <section>
+            <div class="board" id="board">
+
+            <img src="img/chessboard.jpg" alt="bg" id="bg">
+            <img src="img/whitetower.png" alt="whitetower" class="piece left" id="whitetower">
+            <img src="img/whiteleep.png" alt="whiteleep" class="piece left" id="whiteleep">
+            <img src="img/blacktower.png" alt="blacktower" class="piece right" id="blacktower">
+            <img src="img/blackhorse.png" alt="blackhorse" class="piece right" id="blackhorse">
+            <img src="img/blackking.png" alt="blackking" class="piece right" id="blackking">
+            <img src="img/blackleep.png" alt="blackleep" class="piece right" id="blackleep">
+
+            <h2 id="text">Chess</h2>
+            </div>
+          </section>
+
+        </div>
         <div id="info">
           <center><h1>Om Oss</h1></center>
           <h2>Vi har GenericCorperation.inc har dedicerat våran tid åt att
@@ -26,10 +43,37 @@
 
         </div>
         <div id="introductioin"></div>
-        <div id="board"></div>
-        <div id="pjäser"></div>
+        <div id="bard">
+          <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@imchako/video/6945200047868939525" data-video-id="6945200047868939525" style="margin-top: 5%;max-width: 700px;min-width: 325px;" >
+            <section>  </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+</div>
+</div>
+        <div id="pjäser">
+
+        </div>
         <div id="strats"></div>
       </div>
     </div>
+    <script type="text/javascript">
+      let bg = document.getElementById("bg");
+      let whitetower = document.getElementById("whitetower");
+      let blacktower = document.getElementById("blacktower");
+      let blackleep = document.getElementById("blackleep");
+      let whiteleep = document.getElementById("whiteleep");
+      let text = document.getElementById("text");
+
+      window.addEventListener('scroll', function(){
+        var value = window.scrollY;
+
+
+        whitetower.style.top = -value * 5.3 + 'px';
+        blacktower.style.top = -value * 2.65 + 'px';
+        blackleep.style.top = value * 5.3 + 'px';
+        blackleep.style.left = -value * 5.3 + 'px';
+        whiteleep.style.top = value * 2.65 + 'px';
+        whiteleep.style.left = value * 2.65 + 'px';
+        text.style.top = value * 1 + 'px';
+      })
+    </script>
   </body>
 </html>
