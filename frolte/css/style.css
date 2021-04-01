@@ -37,11 +37,11 @@ section img
 {
   position:absolute;
   color: #fff;
-  font-size: 800%;
+  font-size: 600%;
 
   z-index: 5;
-  margin-left: -31.5%;
-  margin-top: 6.8%;
+  margin-left: -36.5%;
+  margin-top: 10.8%;
   color: red;
 }
 h3{
@@ -74,9 +74,9 @@ header{
 
 }
 .buttn{
-  width: 150px;
-  height: 60px;
-  margin-left: 7%;
+  width: 130px;
+  height: 40px;
+  margin-left: 6%;
   margin-top: 1%;
   background-color: Orange;
   font-size: 16px;
@@ -207,7 +207,7 @@ margin-top: 29%;
 #bama{
   margin-left: auto;
   margin-right: auto;
-  height: 45%;
+  height: 35%;
   width: auto;
 }
 #introbild{
