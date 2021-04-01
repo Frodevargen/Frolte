@@ -239,7 +239,7 @@ h5{
   font-size: 175%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   #parabild{
     display: none;
   }
@@ -266,5 +266,8 @@ h5{
   }
   h5{
     font-size: 120%;
+  }
+  #trans{
+    display: none;
   }
 }
